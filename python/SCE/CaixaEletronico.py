@@ -1,5 +1,5 @@
 def Deposito(valor, saldo):
-    if valor < 0:
+    if valor <= 0:
         print("Valor inválido!")
     else:
         saldo += valor
